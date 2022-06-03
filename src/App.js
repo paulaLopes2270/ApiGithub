@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Rotas from './routes'
 
 function App() {
   return (
-  <h1>Olá</h1>
+    <>
+    <Rotas/>
+    </>
   );
 }
 
