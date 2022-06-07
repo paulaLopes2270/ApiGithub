@@ -1,11 +1,15 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-width: 100vw;
-/* height: 100vw ; */
-display:flex;
+export const HomeContainer = styled.div `
+display: flex; 
+flex-direction:column;
 align-items:center;
-margin-top: 10% ;
+justify-content:center;
+height:100vh ;
+`
+
+export const Content = styled.div`
+align-items:center;
 justify-content:center ;
 `
 
@@ -35,3 +39,10 @@ border-radius: 0 .25rem .25rem 0;
     box-shadow:none
 }
 `
+
+export const ErrorMsg = styled.p `
+display:block;
+font-size:8px ;
+color:red ;
+font-weight:600 ;
+ `
